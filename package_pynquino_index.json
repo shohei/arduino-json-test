@@ -1,39 +1,41 @@
 {
   "packages": [
     {
-      "name": "Pynquino",
-      "maintainer": "Shohei Aoki",
-      "websiteURL": "http://docs.pynquino.org",
-      "email": "aoki@jkuat.ac.ke",
+      "name": "myboard",
+      "maintainer": "Jane Developer",
+      "websiteURL": "https://github.com/janedeveloper/myboard",
+      "email": "jane@janedeveloper.org",
       "help": {
-        "online": "http://docs.pynquino.org/"
+        "online": "http://janedeveloper.org/forum/myboard"
       },
       "platforms": [
         {
-          "name": "PYNQ-Z1",
-          "architecture": "mb",
+          "name": "My Board",
+          "architecture": "zynq",
           "version": "1.0.0",
           "category": "Contributed",
           "help": {
-            "online": "http://docs.pynquino.org"
+            "online": "http://janedeveloper.org/forum/myboard"
           },
-          "url": "https://raw.githubusercontent.com/shohei/arduino-json-test/master/pynquino-1.0.0.zip",
-          "archiveFileName": "pynquino-1.0.0.zip",
-          "checksum": "SHA-256:e76636e55611edc3fda3a22c70cba4c1b6bde6da45cd327a460ebeb64736b368",
-          "size": "4000",
+          "url": "https://janedeveloper.github.io/myboard/myboard-1.0.0.zip",
+          "archiveFileName": "myboard-1.0.0.zip",
+          "checksum": "SHA-256:ec3ff8a1dc96d3ba6f432b9b837a35fd4174a34b3d2927de1d51010e8b94f9f1",
+          "size": "15005",
           "boards": [
-            {"name": "PYNQ-Z1"}
+            {"name": "My Board"},
+            {"name": "My Board Pro"}
           ],
           "toolsDependencies": [
             {
               "packager": "mb",
               "name": "mb-gcc",
-              "version": "7.2.0"
+              "version": "4.8.1-arduino5"
             }
           ]
         }
       ],
-       "tools":[]
+      "tools":[]
     }
   ]
 }
+

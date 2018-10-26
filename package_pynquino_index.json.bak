@@ -1,0 +1,39 @@
+{
+  "packages": [
+    {
+      "name": "Pynquino",
+      "maintainer": "Shohei Aoki",
+      "websiteURL": "http://docs.pynquino.org",
+      "email": "aoki@jkuat.ac.ke",
+      "help": {
+        "online": "http://docs.pynquino.org/"
+      },
+      "platforms": [
+        {
+          "name": "PYNQ-Z1",
+          "architecture": "mb",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "help": {
+            "online": "http://docs.pynquino.org"
+          },
+          "url": "https://raw.githubusercontent.com/shohei/arduino-json-test/master/pynquino-1.0.0.zip",
+          "archiveFileName": "pynquino-1.0.0.zip",
+          "checksum": "SHA-256:e76636e55611edc3fda3a22c70cba4c1b6bde6da45cd327a460ebeb64736b368",
+          "size": "4000",
+          "boards": [
+            {"name": "PYNQ-Z1"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "mb",
+              "name": "mb-gcc",
+              "version": "7.2.0"
+            }
+          ]
+        }
+      ],
+       "tools":[]
+    }
+  ]
+}
