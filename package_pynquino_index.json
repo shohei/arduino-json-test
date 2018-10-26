@@ -1,7 +1,7 @@
 {
   "packages": [
     {
-      "name": "myboard",
+      "name": "Pynquino",
       "maintainer": "Jane Developer",
       "websiteURL": "https://github.com/janedeveloper/myboard",
       "email": "jane@janedeveloper.org",
@@ -10,7 +10,7 @@
       },
       "platforms": [
         {
-          "name": "My Board",
+          "name": "PYNQ-Z1",
           "architecture": "zynq",
           "version": "1.0.0",
           "category": "Contributed",
@@ -22,8 +22,7 @@
           "checksum": "SHA-256:ec3ff8a1dc96d3ba6f432b9b837a35fd4174a34b3d2927de1d51010e8b94f9f1",
           "size": "15005",
           "boards": [
-            {"name": "My Board"},
-            {"name": "My Board Pro"}
+            {"name": "PYNQ-Z1"}
           ],
           "toolsDependencies": [
             {
